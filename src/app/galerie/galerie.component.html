@@ -1,0 +1,33 @@
+<!-- Start gallery-->
+<section id="gallery">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        
+        <div class="gallery-box pp">
+            <div class="wrapper-title">
+                <br>
+                <input type="number" [(ngModel)]="PriceMax" name="priceMax" style="margin-left: 290px; width: 500px; height: 30px; border-color: gray; background-color: transparent; border-top: transparent; border-left: transparent; border-right: transparent;" />
+                <img src="assets/images/search.png" alt="image" style="height: 30px; width: 30px;">
+            </div>	
+            <br><br>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <ul class="album">
+                        <app-food *ngFor="let food of listFood " [food]="food" [priceMaxInput]="PriceMax"> 
+
+                        </app-food>                       
+                    </ul>
+                </div>
+            </div>
+            <!-- .row-->
+        </div><!-- .gallery-box-->
+        <div class="shadow">
+            <img src="assets/images/shadow.png" alt="image">
+        </div>
+    </div><!-- .container-->
+</section><!-- #gallery-->
+<!-- end gallery-->

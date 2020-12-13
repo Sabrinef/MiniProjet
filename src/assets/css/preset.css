@@ -1,0 +1,329 @@
+body{background:white;}
+
+/*-----------------------------------
+        header-top
+-----------------------------------*/
+
+.navbar-default .navbar-toggle {
+    border-color: #690200;
+}
+#header .menu-top .logo-bottom{
+	background-color: #690200;
+}
+#header .menu-top .logo-bottom:before{
+	border-top:1px solid #b50400;
+	border-left:1px solid #b50400;
+}
+#header .menu-top .logo-bottom:after{
+	border-top:1px solid #b50400;
+	border-right:1px solid #b50400;
+}
+#header .menu-top{
+    border-bottom: 1px solid #b50400;
+}
+
+/*-----------------------------------
+        header-main-menu
+-----------------------------------*/
+#header{
+	background-color:#690200;
+}
+#header .navbar-default {
+	background-color:#690200;
+	border-color: #690200;
+}
+#header .dropdown-menu>li>a:hover,
+#header .navbar-default ul.navbar-nav>li>a:hover{
+	color:#b50400;
+}
+#header .dropdown-menu>li>a{
+    color: #fff;
+	background: black;
+}
+#header .child a{
+	color: #fff;
+}
+#header .child > a:hover,
+#header .dropdown-menu>li>a:hover {
+    color: #b50400;
+	background: black;
+}
+/*-----------------------------------
+    #revolution  #slider-bottom
+-----------------------------------*/
+#revolution,
+#slider-bottom{
+	background: #690200 !important;
+}
+/*-----------------------------------
+        #module
+-----------------------------------*/
+.btn-primary.focus, .btn-primary:focus, .btn.focus, .btn:focus, .btn:hover, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #b50400;
+}
+.hvr-ripple-out:before {
+    border:5px solid;
+	border-color:#b50400 ;
+}
+.btn-primary,
+.btn-primary:hover{border-color:#b50400;background-color:#b50400;}
+.btn:hover{background-color:#b50400 !important;}
+.button{
+	background: #b50400;
+    color: #fff;
+}
+a.expand {
+  border: solid 5px #b50400;
+  color: #b50400;
+}
+#module .content-box h2,
+#about-us .s-content h4,
+#module .s-content h4{
+	color:#B50400;
+}
+/*-----------------------------------
+        Main body top carve
+-----------------------------------*/
+div.main-body-top-mid{
+	background:#b50400;
+}
+/*-----------------------------------
+        #blog
+-----------------------------------*/
+.link a{
+	color: #fff;
+    background: #690200;
+}
+.link a:hover{
+	background:#690200;
+}
+#blog .categories h1,
+#blog .comments-box span,
+#about-us  .experience h1,
+#about-us  .philosophy h1,
+#blog .my-calendar h1,
+#blog .comments h1,
+#blog .tag h1{
+    color: #B50400;
+}
+#blog .comments-box h4{
+	color:#797979;
+}
+.hvr-rectangle-out:before {
+    border:5px solid;
+	border-color:#b50400;
+	background:#b50400;
+}
+/*-----------------------------------
+        Calendar
+-----------------------------------*/
+
+div.zabuto_calendar .badge-today,
+div.zabuto_calendar div.legend span.badge-today,
+.badge {
+    background-color: #B50400;
+}
+/*-----------------------------------
+        Category Blog
+-----------------------------------*/
+#category .c-content5 h2,
+#category .c-content4 h2,
+#category .c-content3 h2,
+#category .c-content2 h2,
+#category .c-content1 h2{
+    color: #B50400;
+}
+#category .c-content5 a,
+#category .c-content4 a,
+#category .c-content3 a,
+#category .c-content2 a,
+#category .c-content1 a{
+    color: #fff;
+    background: #B50400;
+    border: 1px solid #b50400;
+}
+.hvr-rectangle-in:before{
+    border:5px solid;
+	background: #690400;
+	border-color:#690400;
+}
+/*----------------------------------------------
+ #Tag Page #single Page #Contact-us #Super-User
+-----------------------------------------------*/
+#blog .super-user h2,
+#blog .cat-left h3,
+#blog .cat-left1 h3,
+#blog .author i,
+#contact-us .c-right h1,
+#contact-us .c-left-bottom h1,
+#contact-us .c-left-top h1{
+	color: #B50400;
+}
+#contact-us .c-link a{
+	color: #fff;
+	background:#690200;
+}
+#contact-us .c-link a:hover{
+	background: #B50400;
+}
+/*-----------------------------------
+        Member-Access
+-----------------------------------*/
+#member .my-calendar h1,
+#member .member-left h1{
+	color: #B50400;
+}
+#member .log-link a{
+	color: #fff;
+    background: #690200;
+}
+#member .log-link a:hover{
+	background:#690200;
+}
+#member .log-forgot ul li a{
+	color: #b50400;
+}
+/*-----------------------------------
+        #Food-Menu
+-----------------------------------*/
+#food-menu .slide-content .f-overlay,
+#food-menu .slide-content .overlay{
+    color: #fff;
+	border:5px solid #b50400;
+}
+#food-menu .carousel-control {
+    color: #b50400;
+}
+#food-menu .carousel-control.right,
+#food-menu .carousel-control.left:hover{color:#b50400;}
+
+/*-----------------------------------
+        #food-menu....2
+-----------------------------------*/
+.hvr-radial-out:before {
+    border:5px solid;
+	border-color:#b50400 ;
+	background:#b50400;
+}
+#food-menu .is-checked{
+    color: #fff;
+    background: #b50400;
+	border:1px solid #b50400;
+}
+
+/*-----------------------------------
+        #Resarvation
+-----------------------------------*/
+#reservation  .r-table h1{
+	color: #B50400;
+}
+#about-us .content-top a:hover,
+#food-menu .content-top a:hover,
+#reservation .content-top a:hover{color: #fff;}
+
+#about-us .content,
+#food-menu .content1,
+#reservation .content {
+	border: 2px solid #B50400;
+    background: #690200;
+}
+ #about-us  .content-top a,
+ #food-menu  .content-top a,
+ #reservation  .content-top a,
+ #about-us .content a,
+ #food-menu .content1 a,
+ #reservation .content a,
+ #about-us .content a:hover,
+ #food-menu .content1 a:hover,
+ #reservation .content a:hover{
+	color: #fff;
+    background: #b50400;
+}
+#about-us .content img:hover,
+#food-menu  .content1 img:hover,
+#reservation  .content img:hover{
+	border-color: #b50200;
+}
+#reservation  .r-box h1{
+	color: #B50400;
+}
+/*-----------------------------------
+  #order-online #About-Us #Our-Chefs
+-----------------------------------*/
+#our-chefs .chefs-box h2,
+#about-us .about-top h2,
+#order-online .order-top h2{
+	color: #B50400;
+}
+#order-online .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #b50400;
+    border: 1px solid #b50400;
+}
+#order-online .nav-tabs>li>a:hover {
+    border-color: #b50400 #b50400 #690400;
+}
+#order-online .nav>li>a:focus, .nav>li>a:hover {
+    background-color: #b50400;
+}
+#order-online .menu-top p,
+#order-online .option span,
+#order-online .affix-top i,
+#order-online .add-fav i{
+    color: #b50400;
+}
+#order-online .modal-text{
+	color: #fff;
+    background: #b50400;
+}
+#order-online .btn-primary{
+    color: #fff;
+    background-color: #b50400;
+    border-color: #b50400;
+}
+#order-online .btn-primary:hover{
+    color: #fff;
+    background-color: #690400;
+    border-color: #690400;
+}
+.btn-primary.focus, .btn-primary:focus, .btn.focus, .btn:focus, .btn:hover, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover,
+#order-online .affix-tab,
+#order-online .affix-tab:hover,
+#order-online .affix-bottom{
+	color: #fff;
+    background: #b50200;
+}
+#order-online .nav-tabs>li>a,
+#order-online .affix-top,
+#order-online .affix-bottom a,
+#order-online .affix2,
+#order-online .affix-bottom a:hover{
+	color: #fff;
+    background: #690200;
+}
+#order-online .affix2 img{
+    border: 1px solid #b50300;
+}
+/*-----------------------------------
+        #Registration
+-----------------------------------*/
+#contact-us .error,
+#contact-us .registration h1{color: #b50400;}
+
+/*-----------------------------------
+        #Bottom
+-----------------------------------*/
+#bottom{background: #690200 !important;}
+#bottom .bottom-box{border: 1px solid #bd0a00;}
+#bottom .bottom-box h3 {color: #bd0a00;}
+
+/*-----------------------------------
+        ii.footer
+-----------------------------------*/
+#footer{background: #690200 !important;}
+#footer .footer-content h4{font-family: 'PT Sans', sans-serif;color: #bd0a00;}
+#footer .footer-content p span{color: #bd0a00;}
+#footer .scrollup{border-top: 1px solid #B50400;}
+#footer .scrollup img{ background-color: #690200;}
+#footer .scrollup a{color: #B50400;}
+#footer .ch-info p a {background: #690400;}
+#footer .ch-info p a:hover {background: #b50400;}

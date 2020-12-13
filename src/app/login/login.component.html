@@ -1,0 +1,56 @@
+<!-- Start Member Access-->
+<section id="member">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        
+        <div class="member-box">
+            <div class="wrapper-title">
+                <h3>Serving quality foods that will make you remember coming back to us</h3>
+            </div>
+            <div class="member">	
+                <div class="row">
+                    <div class="col-md-8 col-sm-6">
+                        <div class="member-left">
+                            <h1>Member Access</h1>
+                           <!-- <p>Gantry is a comprehensive set of building blocks to enable the rapid development and realization of a design into a flexible and powerful web platform theme.</p>-->
+                        </div>
+                        <div class="member-input">								
+                            <form [formGroup]="LoginForm">
+                                <label>Email</label>
+                                <input type="email" formControlName="email" placeholder="Enter Your email"/><br>
+                                <div style="color: red; margin-left: 150px;" *ngIf="email.errors && email.touched">
+                                     L'email est un champ obligatoir.
+                                </div>
+                                <label>Password</label>
+                                <input type="password" formControlName="password" placeholder="Enter Your password"/><br>
+                                <div style="color: red; margin-left: 150px;" *ngIf="password.errors && password.touched">
+                                    Password est un champ obligatoir.
+                               </div>
+                                <span>
+                                <label>Remember me</label><input  type="checkbox" class="inputbox" value="yes"/></span>
+                            </form>
+                        </div>
+                        <div class="log-link">
+                            <button type="submit" class="btn btn-primary hvr-ripple-out" [disabled]="LoginForm.invalid" (click)=login()>Log In</button>
+                        </div>
+                        <div class="log-forgot">
+                            <ul>
+                                <li><a href="#">Forgot your password?</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                   
+                </div><!-- .row-->
+            </div><!-- .member-->
+        </div><!-- .member-box-->
+        <div class="shadow">
+            <img src="assets/images/shadow.png" alt="image">
+        </div>
+    </div><!-- .container-->
+</section><!-- #member-->
+<!-- end member-->

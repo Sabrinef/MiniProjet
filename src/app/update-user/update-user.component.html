@@ -1,0 +1,102 @@
+<!-- Start contact-us-->
+<section id="contact-us">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        
+        <div class="contact-box">
+            <div class="wrapper-title">
+                <h3>Serving quality foods that will make you remember coming back to us</h3>
+            </div>
+            <div class="registration">	
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h1>Update Profile</h1>
+                        <div class="reg">
+                            <form [formGroup]="RegisterForm" id="registration-form" class="form-horizontal">
+
+                              <div class="form-control-group">
+                                <label class="control-label" for="name">Your FirstName</label>
+                                <div class="controls">
+                                  <input type="text" class="input-xlarge" [(ngModel)]="user.firstname" formControlName="firstname" placeholder="Enter Your FirstName">
+                                  <div style="color: red; margin-left: 180px;" *ngIf="firstname.errors && firstname.touched">
+                                    <div *ngIf="firstname.hasError('required')">
+                                      firstname est un champ obligatoir.
+                                    </div>
+                                    <div *ngIf="firstname.hasError('minlength')">
+                                      minlength est 3.
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+
+                              <div class="form-control-group">
+                                <label class="control-label" for="name">Your LastName</label>
+                                <div class="controls">
+                                  <input type="text" class="input-xlarge" [(ngModel)]="user.lastname" formControlName="lastname" placeholder="Enter Your LastName">
+                                  <div style="color: red; margin-left: 180px;" *ngIf="lastname.errors && lastname.touched">
+                                    <div *ngIf="lastname.hasError('required')">
+                                      firstname est un champ obligatoir.
+                                    </div>
+                                    <div *ngIf="lastname.hasError('minlength')">
+                                      minlength est 3.
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+                              
+                              <div class="form-control-group">
+                                <label class="control-label" for="name">UserName</label>
+                                <div class="controls">
+                                  <input type="text" class="input-xlarge" [(ngModel)]="user.username" formControlName="username" placeholder="Enter Your Username">
+                                  <div style="color: red; margin-left: 180px;" *ngIf="username.errors && username.touched">
+                                    <div *ngIf="username.hasError('required')">
+                                      firstname est un champ obligatoir.
+                                    </div>
+                                    <div *ngIf="username.hasError('minlength')">
+                                      minlength est 3.
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+                              
+                              <div class="form-control-group">
+                                <label class="control-label" for="email">Email Address</label>
+                                <div class="controls">
+                                  <input type="text" class="input-xlarge" [(ngModel)]="user.email" formControlName="email" placeholder="Enter Your Email">
+                                  <div style="color: red; margin-left: 180px;" *ngIf="email.errors && email.touched">
+                                    <div *ngIf="email.hasError('required')">
+                                        L'email est un champ obligatoir.
+                                    </div>
+                                    <div *ngIf="email.hasError('pattern')">
+                                      L'email doit etre sous la forme "x.y@exemple.z".
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+                            
+                              <div class="form-control-group">
+                                <label for="uploadimage" class="label1">Upload Image:</label>
+                                <div class="controls">
+                                    <input type="file" class="input" name="uploadimage" >
+                                </div>
+                              </div>
+                              
+                              <div class="button1">
+                                <button type="submit" class="btn btn-primary hvr-ripple-out" [disabled]="RegisterForm.invalid" (click)=submit()>Update</button>
+                              </div>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- .row-->
+            </div><!-- .contact-us-->
+        </div><!-- .contact-box-->
+        <div class="shadow">
+            <img src="assets/images/shadow.png" alt="image">
+        </div>
+    </div><!-- .container-->
+</section><!-- #contact-us-->
+<!-- end contact-us-->

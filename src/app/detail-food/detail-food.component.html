@@ -1,0 +1,91 @@
+<!-- Start blog-->
+<section id="blog">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        
+        <div class="blog-box">
+            <div class="wrapper-title">
+                <h3>Serving quality foods that will make you remember coming back to us</h3>
+            </div>
+            <div class="category">	
+                <div class="row">
+                    <div class="col-md-8 col-sm-6">
+                        <div class="cat-left">
+                            <div class="cat-image">
+                                <img src={{food?.image}} alt="image"/>
+                            </div>
+                            <!--<h4>{{food.title}}</h4>
+                            <p>{{food.description}}</p>
+                            <div class="link">
+                                <a href="#" class="hvr-rectangle-out">Read More</a>
+                            </div>
+                            <div class="user-link">
+                                <a href="category-blog.html">Blog</a>
+                            </div>-->
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cat-right">
+                            <div class="categories">
+                                <br><br><br><br>
+                                
+                                <h1>Details <div *ngIf="food?.type==1">(Our Special)</div></h1>
+                                <h4>{{food?.title}}</h4>
+                                <h4>{{food?.description}}</h4>
+                                <h4>Price: {{food?.price}}</h4>
+                                <h4>Category: {{food?.category}}</h4>
+                            </div>
+                            <div class="button1">
+                                <!--<button [routerLink]="['reservate']" type="submit" class="btn btn-primary hvr-ripple-out" style="margin-right: 20px;">Reservate</button>-->
+                                
+                                    {{nbrelikes}} Likes
+                                <button *ngIf="test==false" type="submit" class="btn btn-primary hvr-ripple-out" (click)="add()"> Like</button>
+                                <button *ngIf="test==true" type="submit" class="btn btn-primary hvr-ripple-out" (click)="supplike()">Dislike</button>  
+                                
+                                <button type="submit" class="btn btn-primary hvr-ripple-out" (click)="add_order()">Order Online</button> 
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div><!-- .row-->
+            </div><!-- .category-->
+
+            <div class="wrapper-title">
+               
+            </div>
+            <div class="comments">
+                <h1>{{nbrecomments}} Comments</h1>
+               
+                <app-comment *ngFor="let comment of listComment " (id_notification)="getComment($event)" (notification)="sup($event)" (notification1)="modify($event)" [comment]="comment"> 
+
+                </app-comment>  
+
+                
+
+                <br><br>
+            <div *ngIf="email != null ">
+                <h1>Add new comment</h1>
+                
+                <form [formGroup]="CommentForm" >
+                <textarea rows="3" style="width: 1080px;" formControlName="body" placeholder="Add Your comment"></textarea>
+                </form>
+                <div class="log-link">
+                    <button type="submit" class="btn btn-primary hvr-ripple-out" [disabled]="CommentForm.invalid" (click)=Add_Comment()>Add</button>
+                </div>
+                
+            </div>
+            </div>
+            
+
+        </div><!-- .blog-box-->
+        <div class="shadow">
+            <img src="assets/images/shadow.png" alt="image">
+        </div>
+    </div><!-- .container-->
+</section><!-- #blog-->
+<!-- end blog-->

@@ -1,0 +1,112 @@
+<!-- Start reservation-->
+<section id="reservation">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        <div class="reservation-box">
+            <div class="wrapper-title">
+                <h3>Serving quality foods that will make you remember coming back to us</h3>
+            </div>
+            <div class="reserve">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6">
+                        <div class="r-table">
+                            <h1>Reservation</h1>
+
+
+                            <form #f="ngForm">
+                                
+                                <input style="width: 720px;" type="number" name="Phone" placeholder="Phone" [(ngModel)]="reservation.phone" #p="ngModel" required pattern="[0-9]{8}"/>
+                                <div class="alert alert-danger" style=" margin: 20px 20px 20px 20px;" *ngIf ="p.invalid && p.touched"> 
+                                    
+                                    <div *ngIf="p.errors.required">Phone is required</div>
+                                    <div *ngIf="p.errors.pattern">Must be 8</div>
+                                </div>
+                                
+                                <input style="width: 720px;" type="date" name="date" placeholder="Date" [(ngModel)]="reservation.date" #d="ngModel" required/>
+                                <div class="alert alert-danger" style=" margin: 20px 20px 20px 20px;" *ngIf ="d.invalid && d.touched">Date is required </div>
+
+                                <input style="width: 720px;" type="time" name="time" placeholder="Time" [(ngModel)]="reservation.time" #t="ngModel" required/> 
+                                <div class="alert alert-danger" style="margin: 20px 20px 20px 20px;" *ngIf ="t.invalid && t.touched"> Time is required </div>
+
+                                <input style="width: 720px;" type="number" name="person" placeholder="Person" [(ngModel)]="reservation.person" #per="ngModel" required  pattern="[0-9]" />
+                                <div class="alert alert-danger" style="margin: 20px 20px 20px 20px;" *ngIf ="per.invalid && per.touched"> 
+                                       
+                                    <div *ngIf="per.errors.pattern">Max 9</div>    
+                                    <div *ngIf="per.errors.required">Person is required</div>
+                                </div>
+                                
+                                <textarea class="form-control" name="message" [(ngModel)]="reservation.message" placeholder="Message & Special Request"></textarea>
+                            </form>
+
+                            <div class="link text-right submit">
+                                
+                                <button type="submit" [disabled]="f.invalid" class="btn btn-primary hvr-ripple-out" (click)="save()">Reservate</button>
+                              </div>
+
+                              <!--<p>Today is {{date | date:'dd/L/yyyy'}}</p>-->
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="r-content">
+                            <div class="discount">
+                                <div class="content-top">
+                                    <a href="#">10% DISCOUNT</a>
+                                </div>
+                                <div class="content">
+                                    <img src="http://placehold.it/550x297" alt="image" />
+                                    <p>On orders over $10<br> (Collection only)</p>
+                                    <a href="#">Get Discount</a>
+                                </div>
+                            </div>
+                            
+                            <div class="discount">
+                                <div class="content-top">
+                                    <a href="#">RESERVE A TABLE</a>
+                                </div>
+                                <div class="content">
+                                    <img src="http://placehold.it/550x297" alt="image" />
+                                    <p>For dinner and enjoy<br>culinary experience</p>
+                                    <a href="#">Resarvation</a>
+                                </div>
+                            </div>
+                            
+                            <div class="discount">
+                                <div class="content-top">
+                                    <a href="#">ORDER ONLINE</a>
+                                </div>
+                                <div class="content">
+                                    <img src="http://placehold.it/550x297" alt="image" />
+                                    <p>Having a Night In?<br>You Can Order Online</p>
+                                    <a href="#">Order Online</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="feature1"></div>
+                    </div>
+                    <div class="r-box">
+                        <h1>Our Special</h1>
+                    </div>
+                    <div class="col-md-3 col-sm-6" *ngFor="let food of listfood">
+                        <div class="image" *ngIf="food.type == 1">
+                            <img src={{food.image}}  alt="image"/>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div><!--.reserve-->
+        </div><!--.reservation-box-->
+        <div class="shadow">
+            <img src="assets/images/shadow.png" alt="image">
+        </div>
+    </div><!--.container-->
+</section><!--#reservation-->
+<!-- End reservation-->

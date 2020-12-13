@@ -1,0 +1,29 @@
+<!-- Start our-chefs-->
+<section id="our-chefs">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        <div class="our-chefs-box pp">
+            <div class="wrapper-title">
+                <h3>Serving quality foods that will make you remember coming back to us</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <ul class="chefs">
+                        <app-chef *ngFor="let chef of listChef " [chef]="chef" > 
+
+                        </app-chef>     
+                        
+                    </ul>
+                </div>
+            </div><!--.row-->
+        </div><!--.our-chefs-box-->
+        <div class="shadow">
+            <img src="images/shadow.png" alt="image">
+        </div>
+    </div><!--.container-->
+</section><!--#our-chefs-->
+<!-- End our-chefs-->

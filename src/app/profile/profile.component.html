@@ -1,0 +1,84 @@
+<!-- Start order-online-->
+<section id="order-online">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        <div class="order-box">
+            <div class="wrapper-title">
+                <h3>Serving quality foods that will make you remember coming back to us</h3>
+            </div>
+            <div class="row">
+                <div class="order-top">
+                <h2>My Profile</h2>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="order-list">
+                        <!-- Nav tabs -->
+                        <div class="super-user" style="margin-left: 50px;">
+                            <div class="s-image">
+                                <a href="#"><img src="assets/images/1.jpg" alt="image"/></a>
+                            </div>
+                            <div class="content">
+                                <h2 style="margin-left: 30px;">{{user?.username}}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-sm-5">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        
+                        <div role="tabpanel" class="tab-pane active">
+                            <div class="row" >
+                                <div class="col-md-12">
+                                    <div class="menu-top ">
+                                        <p>FIRSTNAME:</p>
+                                    </div>
+                                    <div class="menu-bottom">
+                                        <p>{{user?.firstname}}</p>
+                                        <div class="add-fav">
+                                            <button ></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="menu-top ">
+                                        <p>LASTNAME:</p>
+                                    </div>
+                                    <div class="menu-bottom">
+                                        <p>{{user?.lastname}}</p>
+                                        <div class="add-fav">
+                                            <button ></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="menu-top ">
+                                        <p>ADRESSE EMAIL:</p>
+                                    </div>
+                                    <div class="menu-bottom">
+                                        <p>{{user?.email}}</p>
+                                        <div class="add-fav">
+                                            <button ></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button [routerLink]="['update_profile',user?.id]" type="button" class="btn btn-primary" data-toggle="modal" data-target="" style="margin-left: 15px;">Modify my profile</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="shadow">
+            <img src="assets/images/shadow.png" alt="image">
+        </div>
+    </div><!--.container-->
+</section><!--#order-online-->
+<!--end order-online-->

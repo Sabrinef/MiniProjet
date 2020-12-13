@@ -1,0 +1,211 @@
+@media (max-width: 1199px) and (min-width: 980px){
+	#slider-bottom .banner p{font-size: 33px;}
+	#slider-bottom{height:76px;}
+	#module .s-content p {margin-top: -20px;font-size: 14px;}
+	#food-menu .slide-content img,
+	#food-menu .slide-content .f-overlay,
+	#food-menu .slide-content .overlay {width: 30%;}
+	#food-menu .f-overlay span { margin-left: 30px;margin-top: 40px;font-size: 26px;}
+	#food-menu .carousel-control {width: 98%;}
+	#gallery .album li,
+	#our-chefs .chefs li {width: 50%;}
+	#blog .comments-box p {font-size: 10px;}
+	#blog .comments-box span {font-size: 12px;}
+	#blog .tag ul li {width: 100%;}
+	#order-online .affix-tab {padding: 3px 7px;}
+	#order-online .affix2 p {font-size: 12px;}
+	#order-online .affix2 img {height: 160px;}
+	#reservation .r-table textarea {width: 95%;}
+	.form-control,
+	#reservation .r-table input {width: 28%;}
+	#reservation .img-box {margin-bottom: 30px;}
+	#reservation .content p {width: 50%;}
+	#reservation .image img {height: 130px;}
+	#contact-us .button1{left:66%;}
+	#about-us .experience{height: 360px;}
+	#about-us .content p, #reservation .content p{width:50%;font-size: 12px;}
+}
+
+
+@media (max-width: 979px) and (min-width: 768px){
+	#header .logo img {width: 35%;}
+	#slider-bottom .banner p{font-size: 25px;}
+	#slider-bottom{height:56px;}
+	#about-us .s-content p ,
+	#module .s-content p {margin-top: -20px;font-size: 14px;}
+	#module .content-box p {font-size: 12px;}
+	#bottom .bottom-box{padding: 25px 13px;}
+	#blog .c-image img {width: 9%;}
+	#blog .cat-image img {height: 300px;}
+	#food-menu .f-content{margin-top:6px;}
+	#food-menu .slide-content img{width: 28%;height: 75px;margin: 16px 6px 0 0;}
+	#food-menu .slide-content .f-overlay,
+	#food-menu .slide-content .overlay {width: 28%;margin:15px 6px 13px 0px;
+    height: 77px;}
+	#food-menu .discount-box{margin-top:0;}
+	#food-menu .f-overlay span ,
+	#food-menu .overlay span {margin-left: 3px;margin-top: 22px;font-size: 18px;}
+	#food-menu .content1 p {font-size: 13px;margin-bottom: 10px;}
+	#food-menu .f-content p ,
+	#food-menu .content p {font-size: 13px;}
+	#food-menu .carousel-control {width: 98%;}
+	#gallery .album li ,
+	#our-chefs .chefs li {width: 49%;}
+	#order-online .nav>li>a {padding: 10px 6px;font-size: 12px;}
+	#order-online .affix-tab {padding: 3px 8px;}
+	#order-online .affix2 p {font-size: 12px;}
+	#order-online .affix2 img {height: 160px;}
+	#reservation .r-table textarea {width: 92%;height:148px;}
+	.form-control,
+	#reservation .r-table input {width: 41%;}
+	#reservation .image img{margin-bottom:30px;}
+	#bottom .bottom-box h4{font-size:14px;}
+	#about-us .content p, #reservation .content p{width:67%}
+	#about-us .philosophy p {line-height: normal;}
+	#about-us .experience p{font-size:11px;}
+	#about-us .experience{height: 280px;}
+	#contact-us .label1, #contact-us .form-horizontal .control-label{width:20%;}
+}
+
+@media (max-width: 767px) {
+	
+}
+
+
+@media (max-width: 767px) and (min-width: 480px){
+	.slicknav_menu {display:block;}
+	#header .logo img {width: 48%;}
+	#slider-bottom .banner p{font-size: 15px;}
+	#slider-bottom{height:32px;}
+	#about-us .s-content h4,
+	#module .s-content h4{font-size:16px;margin-top:10px;}
+	#about-us .s-content p,
+	#module .s-content p {margin-top: -30px;font-size: 12px;}
+	#blog .cat-image img {height: 300px;}
+	#blog .c-image img {width:22%;}
+	#food-menu .carousel-control {width: 96%;}
+	#food-menu .f-content{margin-top:0;}
+	#food-menu .f-overlay span ,
+	#food-menu .overlay span {margin-left: 6px;margin-top: 25px;}
+	#food-menu .slide-content .f-overlay,
+	#food-menu .slide-content .overlay,
+	#food-menu .slide-content img {height: 90px;width:28%;margin:10px;}
+	#gallery .album li,
+	#our-chefs .chefs li {width: 98%;}
+	#our-story .story img {width: 60%;height: 250px;margin-right: 15px;}
+	#reservation .r-table textarea {width: 92%;}
+	.form-control,
+	#reservation .r-table input {width: 41%;}
+	#reservation .image img{margin-bottom:30px;}
+	#member .member-input input{width:60%;}
+	#bottom {margin-top: -20%;padding: 100px 0 20px 0;}
+	#bottom .bottom-box{margin-bottom:20px;}
+	#bottom .bottom-box h4{font-size:15px;}
+	#order-online .nav-tabs{margin-bottom:30px;}
+	#module .error{right:0;}
+	#contact-us .reg{left:0;}
+	#contact-us .button1{left:79%;}
+	.cleditorMain{overflow:hidden; width:58.6% !important;}
+	#contact-us .label1, #contact-us .form-horizontal .control-label{width:40%;}
+	#about-us .philosophy p {line-height: normal;font-size:11px;}
+	#about-us .experience p{font-size:7px;}
+	#about-us .philosophy{padding:20px 25px;}
+	#about-us .experience{padding: 20px 5px;height: 185px;top: 13%;}
+	#about-us .testimonial{padding:50px 30px;}
+}
+
+
+@media (max-width: 479px) and (min-width: 320px){
+	.slicknav_menu {display:block;}
+	.wrapper-title h3{font-size: 19px;}
+	#header{overflow:hidden;}
+	#header .logo img {width: 80%;}
+	#slider-bottom .banner p{margin-top:-7%;font-size: 10px;}
+	#slider-bottom{height:26px;}
+	#about-us .s-content h4,
+	#module .s-content h4{font-size: 15px;}
+	#about-us .s-content p ,
+	#module .s-content p {margin-top: -30px;font-size: 12px;}
+	#module .content-box p {font-size: 12px;}
+	#bottom{margin-top: -35%;}
+	#bottom .bottom-box h4{font-size:15px;}
+	#bottom .bottom-box{margin-bottom:20px;}
+	#food-menu .button{margin-bottom:5px;}
+	#food-menu .carousel-control {width: 95%;margin-top: 3px;}
+	#food-menu .f-overlay span ,
+	#food-menu .overlay span {margin-left: 57px;margin-top: 53px;font-size: 24px;}
+	#food-menu .slide-content .f-overlay,
+	#food-menu .slide-content .overlay{width: 100%; margin:0;height:144px;}
+	#food-menu .slide-content img {width: 100%; margin:0;}
+	#gallery .album li,
+	#our-chefs .chefs li {width: 90%;margin: 6px;}
+	#our-story .story img {width: 60%;height: 160px;margin-right: 15px;}
+	.datetime span {font-size: 13px;}
+	.s-image img {width: 23%;}
+	#blog .cat-image img {height: 300px;}
+	#blog .comments-box p {font-size: 10px;}
+	#blog .comments-box span {font-size: 12px;}
+	#blog .tag ul li {width: 96%;}
+	
+	#reservation .r-table textarea {width: 92%;}
+	.form-control,
+	#reservation .r-table input {width: 90%;}
+	#reservation .image img {margin-bottom: 30px;}
+	#member .member-input input{width:48%;margin-left:15px;}
+	.pagination>li>a{padding:6px 6px;}
+	#order-online .affix-tab{margin-left:0;}
+	#order-online .nav-tabs{margin-bottom:30px;}
+	#module .error{right:0;}
+	#contact-us .reg{left:0;}
+	.cleditorMain{width:100% !important;}
+	#contact-us .label1, #contact-us .form-horizontal .control-label{width:40%;font-size:11px;}
+	#about-us .philosophy p {line-height: normal;font-size: 9px;}
+	#about-us .experience p{font-size:0;}
+	#about-us .philosophy{padding:20px 2px;}
+	#about-us .experience{padding:20px 2px;height:123px;}
+	#about-us .experience h1, #about-us .philosophy h1{font-size:22px;}
+	#about-us .testimonial{padding:10px 5px;}
+	
+}
+@media (max-width: 319px) and (min-width: 240px){
+	.slicknav_menu {display:block;}
+	.wrapper-title h3{font-size: 13px;}
+	#header{overflow:hidden;}
+	#header .logo img {width: 80%;}
+	#slider-bottom .banner p{margin-top:-7%;font-size: 7px;}
+	#slider-bottom{height:26px;}
+	#module .s-content h4{font-size: 10px;}
+	#module .s-content p {margin-top: -30px;font-size: 10px;}
+	#module .content-box p {font-size: 10px;}
+	#bottom{margin-top: -35%;}
+	#bottom .bottom-box{margin-bottom:20px;}
+	#food-menu .button{margin-bottom:5px;}
+	#food-menu .carousel-control {width: 95%;margin-top: 3px;}
+	#food-menu .overlay span {margin-left: 57px;margin-top: 53px;font-size: 24px;}
+	#food-menu .slide-content .overlay{width: 100%; margin:0;height:144px;}
+	#food-menu .slide-content img {width: 100%; margin:0;}
+	#gallery .album li,
+	#our-chefs .chefs li {width: 90%;margin: 6px;}
+	#our-story .story img {width: 60%;height: 160px;margin-right: 15px;}
+	.datetime span {font-size: 13px;}
+	.s-image img {width: 23%;}
+	#blog .cat-image img {height: 300px;}
+	#blog .comments-box p {font-size: 10px;}
+	#blog .comments-box span {font-size: 12px;}
+	#blog .tag ul li {width: 96%;}
+	#reservation .content-top a{font-size: 10px;}
+	#reservation .r-table textarea {width: 92%;}
+	.form-control,
+	#reservation .r-table input {width: 90%;}
+	#reservation .image img {margin-bottom: 30px;}
+	#member .member-input input{width:48%;margin-left:15px;}
+	.pagination>li>a{padding:6px 6px;}
+	#order-online .affix-tab{margin-left:0;}
+	#order-online .nav-tabs{margin-bottom:30px;}
+	#order-online .menu-top .option{margin-top: -40px;}
+	#order-online .option span{margin-right: 0px;}
+	#order-online .affix-bottom a{padding: 3px 3px;font-size: 10px;}
+	#order-online .affix-tab{margin-left:0;padding: 3px 8px;font-size: 10px;}
+	#module .error{right:0;}
+	#contact-us .reg{left:0;}
+}

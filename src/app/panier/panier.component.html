@@ -1,0 +1,64 @@
+<section id="module">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        <div class="module-box pp">
+            <div class="wrapper-title">
+                <h3>Serving quality foods that will make you remember coming back to us</h3>
+            </div>
+<table class="table">
+    <thead><!--#710808-->
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Food Image</th>
+        <th scope="col">Food Title</th>
+        <th scope="col">Food Description</th>
+        <th scope="col">Quantities</th>
+        <th scope="col">Price</th>
+        
+      </tr>
+    </thead>
+    <tbody >
+        <ng-container *ngFor="let p of paniers">
+            <ng-container *ngFor="let f of p.food ; let num = index">
+        <tr  *ngIf="p.user.email == email">
+
+        <td>{{num}}</td><!--{{p.food.length}}-->
+        <td><a href="#"><img src={{f.image}} alt="image" style="width: 100px; height: 70px;"/></a></td>
+        <td>{{f.title}}</td>
+        <td>{{f.description}}</td>
+        <td>
+          <input type="number" placeholder="Quality" [(ngModel)]="total"/>
+        </td>
+        <td>{{f.price}}</td>
+        <td>
+          <div class="link text-right submit">                   
+            <button (click)=supp(f.id) type="submit" class="btn btn-primary hvr-ripple-out"><i class="glyphicon glyphicon-remove"></i></button>
+        </div>
+        </td>
+       
+        <!--
+        <td>
+            <div class="link text-right submit">                   
+            <button type="submit" class="btn btn-primary hvr-ripple-out">Modify</button>
+          </div>
+        </td>
+        <td>
+            <div class="link text-right submit">                   
+            <button type="submit" class="btn btn-primary hvr-ripple-out"  >Delate</button>
+          </div>
+        </td>
+      </tr>-->
+        </ng-container>
+    </ng-container>
+    </tbody>
+  </table>
+  <div class="link text-right submit">                   
+    <button (click)=confirm() type="submit" class="btn btn-primary hvr-ripple-out">Confirm Order</button>
+  </div>
+  </div>
+  </div>
+  </section>

@@ -1,0 +1,12 @@
+<li *ngIf="food.price < priceMaxInput || priceMaxInput==null">
+    <div class="g-image">
+        <div class="img effects clearfix" [ngStyle]="{'border-color':getcolor(food)}">
+            <a [routerLink]="['food',food.id]"><img src={{food.image}}  alt="image"/></a>
+           <!-- <div class="overlay">
+                <a  href="http://placehold.it/550x297" rel="prettyPhoto[pp]" class="expand">+</a>
+                <a class="close-overlay hidden">x</a>
+            </div>-->
+        </div>
+        <h4 style="text-align: center;">{{food.title}}</h4>
+    </div>
+</li>

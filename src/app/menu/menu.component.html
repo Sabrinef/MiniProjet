@@ -1,0 +1,49 @@
+<!-- Start food-menu-->
+<section id="food-menu">
+    <div class="container">
+        <div class="main-body-top">
+            <div class="main-body-top-sitebar"></div>
+            <div class="main-body-top-mid"></div>
+            <div class="main-body-top-sitebar"></div>
+        </div>
+        
+        <div class="f-menu-box">
+            <div class="wrapper-title">
+                <h3>Serving quality foods that will make you remember coming back to us</h3>
+            </div>
+            <div class="f-menu">	
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div id="filters" class="button-group">  
+                          <button class="button is-checked btn btn-primary hvr-radial-out" (click)="getAll()">All</button>
+                          <button class="button btn btn-primary hvr-radial-out" (click)="getBreakfast()" >Breakfast</button>
+                          <button class="button btn btn-primary hvr-radial-out" (click)="getLunch()" >Lunch</button>
+                          <button class="button btn btn-primary hvr-radial-out" (click)="getDinner()" >Dinner</button>
+                          <button class="button btn btn-primary hvr-radial-out" (click)="getDessert()" >Dessert</button>
+                          
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="isotope">
+                                <app-food-menu *ngFor="let food of listFood | paginate: { itemsPerPage: 8, currentPage: p } " [food]="food"> 
+
+                                </app-food-menu>
+                            </div>
+                        </div>
+                         <!-- Start pagination    -->
+                <div style="text-align: center;">
+                    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+                </div>
+                				
+                <!-- end pagination -->
+                    </div>
+                </div><!-- .row-->
+            </div><!-- .f-menu-->
+        </div><!-- .f-menu-box-->
+        <div class="shadow">
+            <img src="assets/images/shadow.png" alt="image">
+        </div>
+    </div><!-- .container-->
+</section><!-- #f-food-menu-->
+<!-- end Food-menu-->

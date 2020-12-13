@@ -1,0 +1,11 @@
+<div class="comments-box" *ngIf="id == comment.food.id">
+    <div class="c-image">
+        <a href="#"><img src="assets/images/1.jpg" alt="image" style="width: 60px; height: 60px;"/></a>
+    </div>
+    <p style="margin-left: 900px;">{{comment.date | date:'fullDate'}}</p>
+    <span>{{comment.user.username}}</span>
+    <p>{{comment.body}}</p>
+    <div style="margin-left: 1030px;" *ngIf="email==comment.user.email">
+    <a (click)="sendNotif()"><img src="assets/images/p.png" alt="image" style="width: 20px; height: 20px;"/></a>
+    </div>
+</div>

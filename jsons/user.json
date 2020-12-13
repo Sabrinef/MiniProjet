@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "cin": 1,
+      "firstname": "sabrine",
+      "lastname": "fliss",
+      "username": "sab",
+      "email": "sabrine.fliss@esprit.tn",
+      "password": "sabsab"
+    },
+    {
+      "cin": 12345678,
+      "firstname": "kjncfkdj",
+      "lastname": "k,ldn,dcjl",
+      "username": "ncldjlcn",
+      "email": "ljndl@nhkdn",
+      "password": "jkdnefv",
+      "id": 2
+    },
+    {
+      "cin": 12345678,
+      "firstname": "bjhbj",
+      "lastname": "bjhbjb",
+      "username": "bhjbjhb",
+      "email": "hbjbjb@hinbin",
+      "password": "bhbhbh",
+      "id": 3
+    }
+  ]
+}

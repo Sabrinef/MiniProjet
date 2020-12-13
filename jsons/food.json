@@ -1,0 +1,113 @@
+{
+    "foods":[
+
+        {
+            "id": 1, 
+            "title": "Pasta",
+            "description": "White sauce pasta (+ Chicken)", 
+            "price": 20, 
+            "category": "lunch",
+            "type": 0,
+            "image":"assets/images/gallery/1.jpg"
+        },
+        {
+            "id": 2, 
+            "title": "Pasta",
+            "description": "Penne pasta with meat and white sauce", 
+            "price": 20, 
+            "category": "lunch",
+            "type": 0,
+            "image":"assets/images/gallery/2.jpg"
+        },
+        {
+            "id": 3, 
+            "title": "Soup",
+            "description": "Pumpkin and potato soup", 
+            "price": 20, 
+            "category": "dinner",
+            "type": 0,
+            "image":"assets/images/gallery/3.jpg"
+        },
+        {
+            "id": 4, 
+            "title": "Couscous",
+            "description": "Jewelled Couscous with Cannellini Beans and Harissa", 
+            "price": 20, 
+            "category": "lunch",
+            "type": 0,
+            "image":"assets/images/gallery/4.jpeg"
+        },
+        {
+            "id": 5, 
+            "title": "grillade mixte",
+            "description": "grillade mixte + fried and mayonnaise", 
+            "price": 20, 
+            "category": "dinner",
+            "type": 0,
+            "image":"assets/images/gallery/5.jpg"
+        },
+        {"id": 6, 
+            "title": "Pizza",
+            "description": "Cheesy Pepperoni Pizza Pull", 
+            "price": 20, 
+            "category": "lunch",
+            "type": 0,
+            "image":"assets/images/gallery/6.jpg"
+        },
+        {
+            "id": 7, 
+            "title": "Milkshake",
+            "description": "Kinder Bueno milkshake", 
+            "price": 20, 
+            "category": "dessert",
+            "type": 0,
+            "image":"assets/images/gallery/7.jpg"
+        },
+        {
+            "id": 8, 
+            "title": "Hamburger ",
+            "description": "Cheeseburger Facts for Kids", 
+            "price": 20, 
+            "category": "lunch",
+            "type": 0,
+            "image":"assets/images/gallery/8.jpg"
+        },
+        {
+            "id": 9, 
+            "title": "Grilled Fish",
+            "description": "Grilled Fish With Sauteed Vegetables", 
+            "price": 20, 
+            "category": "dinner",
+            "type": 0,
+            "image":"assets/images/gallery/9.jpg"
+        },
+        {
+            "id": 10, 
+            "title": "Chocolate fondant",
+            "description": "Chocolate fondant", 
+            "price": 20, 
+            "category": "dessert",
+            "type": 0,
+            "image":"assets/images/gallery/10.jpg"
+        },
+        {
+            "id": 11, 
+            "title": "Cheesecake",
+            "description": "Cheesecake with berries", 
+            "price": 20, 
+            "category": "lunch",
+            "type": 0,
+            "image":"assets/images/gallery/11.jpg"
+        },
+        {
+            "id": 12, 
+            "title": "Cupcakes",
+            "description": "Nutella and coffee cupcakes", 
+            "price": 20, 
+            "category": "breakfast",
+            "type": 0,
+            "image":"assets/images/gallery/12.jpeg"
+        }
+
+    ]
+}
